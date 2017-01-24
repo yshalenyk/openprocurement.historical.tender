@@ -10,7 +10,9 @@ from openprocurement.api.tests.base import (
     BaseTenderWebTest,
     test_tender_data,
 )
-from openprocurement.historical.core.tests import test_data_with_revisions
+from openprocurement.historical.core.tests import (
+    test_data_with_revisions
+)
 
 
 class HistoricalTenderTestCase(BaseTenderWebTest):
